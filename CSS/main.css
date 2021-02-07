@@ -1,0 +1,120 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+  margin: 0;
+}
+/* header */
+.logo {
+  color: var(--primary-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.color {
+  color: var(--accent-color);
+}
+
+ul li {
+  list-style: none;
+}
+.site-naw .link {
+  color: var(--primary-text-color);
+}
+.site-naw .link:hover,
+.site-naw .link:focus {
+  color: var(--accent-color);
+}
+.background {
+  background-color: #ffffff;
+}
+.site-naw .link.current {
+  color: var(--accent-color);
+}
+.contacts-color {
+  color: var(--title-text-color);
+}
+.contacts-color:hover,
+.contacts-color:focus {
+  color: var(--accent-color);
+}
+
+/*Секция героя*/
+button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/*Секция преимущества*/
+.advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+p {
+  color: var(--title-text-color);
+}
+.second {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* наша работа*/
+.important {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/*команда*/
+.section {
+  background-color: #f5f4fa;
+}
+.item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.item-en {
+  font-size: 16px;
+  line-height: 1.18;
+}
+/*подвал*/
+.bottom {
+  background-color: #2f303a;
+}
+.white {
+  color: #ffffff;
+}
+.new {
+  color: var(--accent-color);
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* синий для виделений акцент #2196F3 */
+/* белый цвет  #FFFFFF */
+/* цвет с прозрачность для подвала rgba(255, 255, 255, 0.6);*/

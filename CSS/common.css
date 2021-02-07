@@ -1,0 +1,106 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+/* header */
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.color {
+  color: var(--accent-color);
+}
+.site-naw {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+ul li {
+  list-style: none;
+}
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.background {
+  background-color: #ffffff;
+}
+/* header container */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  outline: 2px solid tomato;
+}
+.link.current {
+  color: var(--accent-color);
+}
+.contacts-color {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.contacts-color:hover,
+.contacts-color:focus {
+  color: var(--accent-color);
+}
+/*main*/
+h1 {
+  color: #ffffff;
+}
+/*подвал*/
+.bottom {
+  background-color: #2f303a;
+}
+.bot-logo {
+  font-size: 26px;
+  line-height: 1.2;
+}
+.white {
+  color: #ffffff;
+}
+.white-adderess {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+}
+address {
+  font-style: normal;
+}
+.new {
+  color: var(--accent-color);
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+}
+.info {
+  font-size: 14px;
+  line-height: 1.71;
+}

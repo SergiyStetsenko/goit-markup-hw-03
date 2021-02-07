@@ -1,0 +1,40 @@
+/*список кнопок*/
+.mani {
+  background-color: #f5f4fa;
+  border: none;
+}
+.mani:hover,
+.mani:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+button {
+  font-family: inherit;
+}
+.navigation .mani {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+/*основное меню страницы*/
+li a {
+  text-decoration: none;
+  display: block;
+}
+.fon {
+  background-color: #ffffff;
+}
+.techno {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.site {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--title-text-color);
+}
