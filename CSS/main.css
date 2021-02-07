@@ -23,24 +23,11 @@ body {
 ul li {
   list-style: none;
 }
-.site-naw .link {
-  color: var(--primary-text-color);
-}
-.site-naw .link:hover,
-.site-naw .link:focus {
-  color: var(--accent-color);
-}
+
 .background {
   background-color: #ffffff;
 }
 .site-naw .link.current {
-  color: var(--accent-color);
-}
-.contacts-color {
-  color: var(--title-text-color);
-}
-.contacts-color:hover,
-.contacts-color:focus {
   color: var(--accent-color);
 }
 

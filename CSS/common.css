@@ -26,22 +26,32 @@ body {
 .color {
   color: var(--accent-color);
 }
+.site-naw .iten:not(:last-child) {
+  margin-right: 50px;
+}
 .site-naw {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 ul li {
   list-style: none;
 }
 .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   text-decoration: none;
 }
@@ -50,6 +60,8 @@ ul li {
   color: var(--accent-color);
 }
 .background {
+  display: flex;
+  align-items: center;
   background-color: #ffffff;
 }
 /* header container */
@@ -60,10 +72,15 @@ ul li {
   margin: 0;
   outline: 2px solid tomato;
 }
+
 .link.current {
   color: var(--accent-color);
 }
 .contacts-color {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -71,6 +88,10 @@ ul li {
 .contacts-color:focus {
   color: var(--accent-color);
 }
+.contacts .iten:not(:last-child) {
+  margin-right: 50px;
+}
+
 /*main*/
 h1 {
   color: #ffffff;
