@@ -45,6 +45,7 @@ html {
 .site-naw {
   display: flex;
   font-weight: 500;
+  margin: 0px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -52,6 +53,7 @@ html {
 .contacts {
   display: flex;
   font-weight: 500;
+  margin: 0px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -79,10 +81,7 @@ ul li {
 }
 .background {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0;
-  background-color: #ffffff;
+  justify-content: space-between;
 }
 /* header container */
 .container {
@@ -90,7 +89,7 @@ ul li {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
-  outline: 2px solid tomato;
+  background-color: #ffffff;
 }
 
 .link.current {
