@@ -12,6 +12,14 @@ body {
   text-decoration: none;
 }
 /* header */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 .logo {
   display: block;
   padding-top: 24px;
@@ -67,11 +75,13 @@ ul li {
 .conta {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 .background {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0;
   background-color: #ffffff;
 }
 /* header container */
