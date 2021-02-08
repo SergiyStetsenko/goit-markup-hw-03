@@ -13,6 +13,11 @@ body {
 }
 /* header */
 .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
+
   color: var(--primary-text-color);
   text-decoration: none;
   font-family: Raleway, cursive;
@@ -59,9 +64,14 @@ ul li {
 .link:focus {
   color: var(--accent-color);
 }
+.conta {
+  display: flex;
+  align-items: center;
+}
 .background {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   background-color: #ffffff;
 }
 /* header container */
