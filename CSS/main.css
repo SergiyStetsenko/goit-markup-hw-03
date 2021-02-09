@@ -72,7 +72,6 @@ h1 {
 
 /*Секция преимущества*/
 .advantages-containet {
-  
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -135,8 +134,7 @@ p {
 /*команда*/
 .section {
   background-color: #f5f4fa;
-  padding-bottom: 94px; 
- 
+  padding-bottom: 94px;
 }
 .section:not(:last-child) {
   margin-bottom: 94px;
@@ -153,7 +151,7 @@ p {
   margin-bottom: 10px;
 }
 .section .advantages-containet {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .item {
   font-weight: 500;
@@ -168,7 +166,6 @@ p {
 }
 /* .section .advantages-containet {
   padding-bottom: 94px; */
-}
 /*подвал*/
 .bottom {
   background-color: #2f303a;
