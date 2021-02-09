@@ -112,7 +112,6 @@ ul li {
 .contacts .iten:not(:last-child) {
   margin-right: 50px;
 }
-
 /*main*/
 .visually-hidden {
   position: absolute;
