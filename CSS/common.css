@@ -94,8 +94,6 @@ ul li {
   margin: 0;
   background-color: #ffffff;
 }
-.iten {
-}
 .link.current {
   color: var(--accent-color);
 }

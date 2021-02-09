@@ -72,10 +72,13 @@ h1 {
 
 /*Секция преимущества*/
 .advantages-containet {
-  margin-bottom: 94px;
+  
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.advantages-containet:not(:last-child) {
+  margin-bottom: 94px;
 }
 .visually-hidden {
   position: absolute;
@@ -132,16 +135,39 @@ p {
 /*команда*/
 .section {
   background-color: #f5f4fa;
+  padding-bottom: 94px; 
+ 
+}
+.section:not(:last-child) {
+  margin-bottom: 94px;
 }
 
+.bot {
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-item-en {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.section .advantages-containet {
+    margin-bottom: 0px;
+}
 .item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .item-en {
   font-size: 16px;
   line-height: 1.18;
+}
+/* .section .advantages-containet {
+  padding-bottom: 94px; */
 }
 /*подвал*/
 .bottom {
