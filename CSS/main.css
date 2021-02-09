@@ -77,6 +77,16 @@ h1 {
   padding-left: 15px;
   padding-right: 15px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 .advantages {
   font-weight: 700;
   font-size: 14px;
@@ -90,24 +100,24 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-.advantages-containet .foto {
-  display: inline-block;
-  justify-content: flex-start;
+.foto {
+  display: flex;
+  justify-content: space-between;
 }
 .advantages-title {
   display: flex;
+  justify-content: space-between;
 }
-.foto:not(:last-child) {
-  margin-right: 25px;
-}
+
 p {
   color: var(--title-text-color);
 }
 .second {
   margin-top: 10px;
-  margin-right: 30px;
+  /* margin-right: 30px;  */
   font-size: 14px;
   line-height: 1.71;
+  margin-right: 30px;
 }
 
 /* наша работа*/
