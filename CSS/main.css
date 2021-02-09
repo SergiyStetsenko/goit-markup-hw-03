@@ -79,16 +79,7 @@ h1 {
 .advantages-containet:not(:last-child) {
   margin-bottom: 94px;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
+
 .advantages {
   font-weight: 700;
   font-size: 14px;
@@ -135,6 +126,7 @@ p {
 .section {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .section:not(:last-child) {
   margin-bottom: 94px;
@@ -151,7 +143,7 @@ p {
   margin-bottom: 10px;
 }
 .section .advantages-containet {
-  margin-bottom: 0px;
+  padding-top: 94px;
 }
 .item {
   font-weight: 500;
@@ -164,11 +156,11 @@ p {
   font-size: 16px;
   line-height: 1.18;
 }
-/* .section .advantages-containet {
-  padding-bottom: 94px; */
+
 /*подвал*/
 .bottom {
   background-color: #2f303a;
+  padding-bottom: 60px;
 }
 .white {
   color: #ffffff;

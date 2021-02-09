@@ -99,11 +99,11 @@ ul li {
 }
 .contacts-color {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: var(--title-text-color);
   text-decoration: none;
+}
+.finish {
+  margin-bottom: 9px;
 }
 .contacts-color:hover,
 .contacts-color:focus {
@@ -114,12 +114,31 @@ ul li {
 }
 
 /*main*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 h1 {
   color: #ffffff;
 }
 /*подвал*/
 .bottom {
+  width: 1200px;
   background-color: #2f303a;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 .bot-logo {
   font-size: 26px;
@@ -128,10 +147,20 @@ h1 {
 .white {
   color: #ffffff;
 }
+.bed {
+  width: 250px;
+}
+.bottom .logo {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
 .white-adderess {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
 }
 address {
   font-style: normal;
