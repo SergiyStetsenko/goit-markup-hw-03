@@ -5,7 +5,7 @@
 }
 body {
   color: var(--primary-text-color);
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   margin: 0;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -80,18 +80,22 @@ ul li {
   padding: 0;
 }
 .background {
-  display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /* header container */
 .container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
   background-color: #ffffff;
 }
-
+.iten {
+}
 .link.current {
   color: var(--accent-color);
 }
