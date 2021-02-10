@@ -27,22 +27,25 @@ p {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+.grid {
+  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
 .cart-set {
   width: auto;
   flex-basis: calc(100% / 3 - 30px);
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
   margin-top: -30px;
   margin-left: -30px;
 }
 .navigation {
   display: flex;
   justify-content: center;
-  margin-top: 103px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 /*основное меню страницы*/
 li a {
@@ -50,18 +53,20 @@ li a {
   display: block;
 }
 .fon {
+  width: 370px;
   background-color: #ffffff;
   margin-top: 30px;
-  margin-left: 25px;
+  margin-left: 30px;
   border: 1px solid #eeeeee;
 }
 .techno {
-  margin-top: 20px;
-  margin-bottom: 4px;
+  padding-top: 20px;
+  padding-bottom: 4px;
   padding-left: 24px;
   padding-right: 24px;
   font-weight: 700;
   font-size: 18px;
+  margin: 0;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
@@ -69,8 +74,8 @@ li a {
 .site {
   padding-left: 24px;
   padding-right: 24px;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0px;
+  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.8;
   color: var(--title-text-color);

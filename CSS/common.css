@@ -43,7 +43,7 @@ html {
   color: var(--accent-color);
 }
 .site-naw .iten:not(:last-child) {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 .site-naw {
   display: flex;
@@ -83,12 +83,8 @@ ul li {
   padding: 0;
 }
 .background {
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid #ececec;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1600px;
   margin: 0 auto;
 }
 /* header container */
@@ -119,7 +115,7 @@ ul li {
   margin-right: 50px;
 }
 /*main*/
-.advantages-containet {
+.containet {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -140,16 +136,14 @@ h1 {
 }
 /*подвал*/
 .bottom {
-  width: 1200px;
+  width: 1600px;
   background-color: #2f303a;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
 }
 .finish {
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 ul {
   margin: 0px;
@@ -162,9 +156,7 @@ ul {
 .white {
   color: #ffffff;
 }
-.bed {
-  width: 250px;
-}
+
 .bottom .logo {
   display: block;
   padding-top: 20px;
@@ -175,7 +167,7 @@ ul {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 address {
   font-style: normal;
