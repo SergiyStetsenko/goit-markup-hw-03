@@ -35,6 +35,7 @@ ul li {
 button {
   display: inline-block;
   padding: 10px;
+  border-radius: 4px;
 
   color: #ffffff;
   background-color: var(--accent-color);
@@ -136,6 +137,7 @@ p {
   background-color: #ffffff;
   text-align: center;
   padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
 }
 .section-item-en {
   display: flex;
