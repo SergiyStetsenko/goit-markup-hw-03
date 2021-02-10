@@ -26,6 +26,7 @@ ul li {
 
 .background {
   background-color: #ffffff;
+  margin: 0 auto;
 }
 .site-naw .link.current {
   color: var(--accent-color);
@@ -56,12 +57,16 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.text {
+  margin: 0 auto;
+}
 .hero {
   width: 1200px;
   margin-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
+  margin: o auto;
   background-color: #2f303a;
 }
 
