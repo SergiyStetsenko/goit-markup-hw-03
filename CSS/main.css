@@ -155,7 +155,6 @@ p {
 .section-item-en {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 .section .advantages-containet {
   padding-top: 94px;
@@ -164,8 +163,8 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .item-en {
   font-size: 16px;
