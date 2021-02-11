@@ -52,7 +52,6 @@ h1 {
   text-transform: uppercase;
 }
 .team {
-  width: 1600px;
   padding-top: 200px;
   padding-left: 15px;
   padding-bottom: 200px;
@@ -63,10 +62,39 @@ h1 {
 .hero {
   text-align: center;
 }
-
+.containet,
+.good {
+  margin-right: -30px;
+}
 .hero-title {
   margin: 0px;
   padding-bottom: 30px;
+}
+/*Спрайт*/
+.sprte {
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.rer {
+  width: auto;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.mod {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin: 0;
+  margin-right: 30px;
+}
+.mods-icon {
+  padding: 25px 102px;
+}
+.icon {
+  fill: #212121;
 }
 
 /*Секция преимущества*/
@@ -82,7 +110,6 @@ h1 {
 .lol {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -119,7 +146,6 @@ p {
 /* наша работа*/
 .work {
   padding-bottom: 94px;
-  width: 1600px;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -133,7 +159,6 @@ p {
 
 /*команда*/
 .section {
-  width: 1600px;
   margin: 0 auto;
   background-color: #f5f4fa;
   padding-bottom: 94px;

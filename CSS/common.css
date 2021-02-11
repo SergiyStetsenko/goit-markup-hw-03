@@ -84,7 +84,6 @@ ul li {
 }
 .background {
   border: 1px solid #ececec;
-  width: 1600px;
   margin: 0 auto;
 }
 /* header container */
@@ -136,7 +135,6 @@ h1 {
 }
 /*подвал*/
 .bottom {
-  width: 1600px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;

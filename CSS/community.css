@@ -29,7 +29,6 @@ p {
   letter-spacing: 0.03em;
 }
 .grid {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0 auto;
@@ -60,23 +59,26 @@ li a {
   margin-left: 30px;
   border: 1px solid #eeeeee;
 }
-.techno {
+.fon:nth-child(2n + 1) {
+  margin-right: 0px;
+}
+.fontos {
   padding-top: 20px;
-  padding-bottom: 4px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
+}
+.techno {
   font-weight: 700;
   font-size: 18px;
-  margin: 0;
+  padding-bottom: 4px;
+  margin: 0px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 .site {
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0px;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.8;
   color: var(--title-text-color);
